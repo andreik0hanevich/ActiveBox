@@ -23,8 +23,9 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -75,7 +76,7 @@ p {
     justify-content: center;
     height: 750px;
     padding-top: 100px;
-    background: #31344e url("img/background_1.jpg") no-repeat center / cover;
+    background: #31344e url("img/intro/background_1.jpg") no-repeat center / cover;
 }
 
 .intro__inner {
@@ -214,6 +215,112 @@ p {
 }
 
 .employees {
+    margin: 100px 0 70px;
+}
+
+.employees__inner {
     display: flex;
-    margin: 100px 0;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.employees_item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.employees__img {
+    margin-bottom: 20px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.employee__name {
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #2d3033;
+}
+
+.employee__position {
+    margin-bottom: 15px;
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.employee_text {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
+
+.contacts {
+    display: flex;
+}
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    border: 1px solid #e8ecee;
+    transition: .2s linear;
+    border-radius: 3px;
+}
+
+.social__item:hover {
+    background-color: #2d3033;
+}
+
+.reviews {
+    overflow: hidden;
+    background-color: #53354a;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    margin-bottom: 25px;
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.review__author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
 }
