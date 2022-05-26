@@ -117,6 +117,7 @@ p {
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     transition: background .1s linear;
 }
 
@@ -126,6 +127,10 @@ p {
 
 .btn--red:hover {
     background-color: #dd3434;
+}
+
+.btn--long {
+    min-width: 280px;
 }
 
 .features {
@@ -168,7 +173,7 @@ p {
     width: 25%;
     height: 350px;
     border-bottom: 1px solid #ffffff;
-    border-right: 1px solid#ffffff;
+    border-right: 1px solid #ffffff;
     position: relative;
     overflow: hidden;
 }
@@ -261,6 +266,11 @@ p {
     display: flex;
 }
 
+.contacts--footer {
+    justify-content: center;
+}
+
+
 .social__item {
     display: flex;
     justify-content: center;
@@ -275,6 +285,11 @@ p {
 
 .social__item:hover {
     background-color: #2d3033;
+}
+
+
+.contacts--footer .social__item {
+    border-width: 2px;
 }
 
 .reviews {
@@ -322,5 +337,79 @@ p {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #ffffff;
+}
+
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
+.download__text {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block {
+    padding: 0 15px;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.footer__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer__address {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, .5);
+}
+
+.copyright {
+    padding: 20px 0;
+    background-color: #313454;
+}
+
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #808080;
+}
+
+.copyright__text span {
     color: #ffffff;
 }
